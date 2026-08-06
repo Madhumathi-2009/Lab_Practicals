@@ -1,0 +1,1430 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "bf2d316b-f999-4fff-b075-6d840ba49a2d",
+   "metadata": {},
+   "source": [
+    "# --------------------------------------------------------------------------------------\n",
+    "# PRACTICAL 1\n",
+    "# --------------------------------------------------------------------------------------"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "61f767bb-1c31-483c-9140-a4868937dc25",
+   "metadata": {},
+   "source": [
+    "# Demonstrate Python Basic Data types and Variable Assignments"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 145,
+   "id": "d1effd9a-b1f1-43b4-ab8d-b5f03c2cf923",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "-------------------------------------------------\n",
+      "              DATA TYPES            \n",
+      "-------------------------------------------------\n",
+      "\n",
+      "Total Marks : 400\n",
+      "Data Type   : <class 'int'>\n",
+      "\n",
+      "Percentage : 80 %\n",
+      "Data Type  : <class 'int'>\n",
+      "\n",
+      "Name      : Madhu\n",
+      "Data Type : <class 'str'>\n",
+      "\n",
+      "Boolean   : False\n",
+      "Data type : <class 'bool'>\n",
+      "\n",
+      "Subjects  : ['Tamil', 'English', 'Maths', 'Science', 'Social']\n",
+      "Data Type : <class 'list'>\n",
+      "\n",
+      "Marks     : (90, 90, 70, 60, 90)\n",
+      "Data type : <class 'tuple'>\n",
+      "\n",
+      "Student details : {'Student Name': 'Madhu', 'Age': 17}\n",
+      "Data Type       : <class 'dict'>\n",
+      "\n",
+      "Unique Marks : {90, 60, 70}\n",
+      "Data type    : <class 'set'>\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 400                                                      # Integer\n",
+    "b = 80                                                       # Float\n",
+    "c = \"Madhu\"                                                  # String\n",
+    "d = bool(a<b)                                                # Boolean\n",
+    "e = [\"Tamil\", \"English\", \"Maths\", \"Science\", \"Social\"]       # List\n",
+    "f = (90, 90, 70, 60, 90)                                     # Tuple\n",
+    "g = {\"Student Name\" : \"Madhu\", \"Age\" : 17}                   # Dictionary\n",
+    "h = {90, 90, 70, 60, 90}                                     # Set\n",
+    "\n",
+    "print(\"-------------------------------------------------\")\n",
+    "print(\"              DATA TYPES            \")\n",
+    "print(\"-------------------------------------------------\")\n",
+    "print()\n",
+    "\n",
+    "print(\"Total Marks :\", a)\n",
+    "print(\"Data Type   :\", type(a))\n",
+    "print()\n",
+    "\n",
+    "print(\"Percentage :\", b,\"%\")\n",
+    "print(\"Data Type  :\", type(b))\n",
+    "print()\n",
+    "\n",
+    "print(\"Name      :\", c)\n",
+    "print(\"Data Type :\", type(c))\n",
+    "print()\n",
+    "\n",
+    "print(\"Boolean   :\", d)\n",
+    "print(\"Data type :\", type(d))\n",
+    "print()\n",
+    "\n",
+    "print(\"Subjects  :\", e)\n",
+    "print(\"Data Type :\", type(e))\n",
+    "print()\n",
+    "\n",
+    "print(\"Marks     :\", f)\n",
+    "print(\"Data type :\", type(f))\n",
+    "print()\n",
+    "\n",
+    "print(\"Student details :\",g)\n",
+    "print(\"Data Type       :\", type(g))\n",
+    "print()\n",
+    "\n",
+    "print(\"Unique Marks :\", h)\n",
+    "print(\"Data type    :\", type(h))\n",
+    "print()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d9b792a8-2113-4918-a0cd-b7444e95fa31",
+   "metadata": {},
+   "source": [
+    "# --------------------------------------------------------------------------------------\n",
+    "# PRACTICAL 2\n",
+    "# --------------------------------------------------------------------------------------"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "49161d7f-22a6-411c-9f1b-38f43f67bb07",
+   "metadata": {},
+   "source": [
+    "# Use Conditinal Statements and Loops"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "60d9268d-b4d8-43c8-a3cf-7ab0d494b048",
+   "metadata": {},
+   "source": [
+    "1. To check whether a number positive using if statement"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "6b16012c-2880-468f-8e55-b55ccddc1006",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a number : 10\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The Number is Positive\n"
+     ]
+    }
+   ],
+   "source": [
+    "Number = int(input(\"Enter a number :\"))\n",
+    "if Number >= 0:\n",
+    "    print(\"The Number is Positive\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0ad0cfed-a294-4e8a-b089-a752ca1a134b",
+   "metadata": {},
+   "source": [
+    "2. To determine whether it is even or odd using if-else statement"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "3bb39bd2-d38c-4ad8-8aff-2d15850a0ee7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a Number : 25\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The Number is Odd\n"
+     ]
+    }
+   ],
+   "source": [
+    "N = int(input(\"Enter a Number :\"))\n",
+    "if N%2==0:\n",
+    "    print(\"The Number is Even\")\n",
+    "else:\n",
+    "    print(\"The Number is Odd\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "07ac038b-f48e-4376-9b65-f3d1ff128b48",
+   "metadata": {},
+   "source": [
+    "3. To assign a grade according to the Student marks"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "3ffc66cf-82cb-47dc-ad48-7ebbc393afa0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter Student Marks : 20\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Fail\n"
+     ]
+    }
+   ],
+   "source": [
+    "M = int(input(\"Enter Student Marks :\"))\n",
+    "if M > 90:\n",
+    "    print(\"Grade A\")\n",
+    "elif M > 60:\n",
+    "    print(\"Grade B\")\n",
+    "elif M > 35:\n",
+    "    print(\"Grade C\")\n",
+    "else:\n",
+    "    print(\"Fail\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5cbbd87a-06c2-4a00-b23c-12725d9ccac4",
+   "metadata": {},
+   "source": [
+    "4. To Verify the login credentials using nested-if-else statement"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "961ae64c-39ac-42e7-ba46-9699bb5d2f70",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Username : Alice\n",
+      "Password : 1234\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Login Successfully\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = input(\"Username :\")\n",
+    "b = input(\"Password :\")\n",
+    "if a == \"Alice\":\n",
+    "    if b == \"1234\":\n",
+    "        print(\"Login Successfully\")\n",
+    "    else:\n",
+    "        print(\"Check your Credentials\")\n",
+    "else:\n",
+    "    print(\"Check your Credentials\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "424e5425-7b03-4ca1-a087-2c562904589e",
+   "metadata": {},
+   "source": [
+    "5. To check whether the user is eligible for voting or not Using one-line-if-else statement"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "22831f38-b039-4324-910b-76d3b2d900e5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 45\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Eligible to vote\n"
+     ]
+    }
+   ],
+   "source": [
+    "A = int(input())\n",
+    "s = \"Eligible to vote\" if A >= 18 else \"Not Eligible\"\n",
+    "print(s)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "83c0cfa1-65f5-4f60-b7c2-610bf2551fde",
+   "metadata": {},
+   "source": [
+    "6. To Display numbers from 1 to 5 using for loop"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "ebb77f39-63c4-493e-bef6-824f9ed19414",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(1,6,1):\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e7a8f628-73d5-44f0-b79c-1a90e2280b1a",
+   "metadata": {},
+   "source": [
+    "7. To Display numbers from 1 to 5 using while loop"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "5e5f6a38-a7de-4ed1-b574-c827a414fcee",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "i = 1 \n",
+    "while(i<6):\n",
+    "    print(i)\n",
+    "    i = i + 1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "24f32295-4925-4482-b1ff-e05f5cbc6412",
+   "metadata": {},
+   "source": [
+    "8. To Demonstrate the break statement by terminating the loop when the value becomes 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "eef2ec55-9e9d-4010-819e-caade72a4fa7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(10):\n",
+    "    if i == 6:\n",
+    "        break\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f0dd33d3-3dbf-41ef-aeba-3629de4a6a43",
+   "metadata": {},
+   "source": [
+    "9. To Demonstrate the continue statement by skipping the value 5 during loop execution"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "cc47e4da-d52f-4a98-8e7a-7e4be106b193",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(10):\n",
+    "    if i == 5:\n",
+    "        continue\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3313e57f-df3a-4948-b1ce-3898e94a1ec0",
+   "metadata": {},
+   "source": [
+    "10. To demonstrate the pass statement as a placeholder while continuing loop execution"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "275ea13f-18f0-4c36-92dc-db170fdb8c3e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(10):\n",
+    "    if i == 5:\n",
+    "        pass\n",
+    "    else:\n",
+    "        print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "b92b5c26-c78d-4f30-ac7b-49508bcc90fb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a day (1-7): 3\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Wednesday\n"
+     ]
+    }
+   ],
+   "source": [
+    "Day = int(input(\"Enter a day (1-7):\"))\n",
+    "match Day:\n",
+    "    case 1:\n",
+    "        print(\"Monday\")\n",
+    "    case 2:\n",
+    "        print(\"Tuesday\")\n",
+    "    case 3:\n",
+    "        print(\"Wednesday\")\n",
+    "    case 4:\n",
+    "        print(\"Thursday\")\n",
+    "    case 5:\n",
+    "        print(\"Friday\")\n",
+    "    case 6:\n",
+    "        print(\"Saturday\")\n",
+    "    case 7:\n",
+    "        print(\"Sunday\")\n",
+    "    case _:\n",
+    "        print(\"Invalid day\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1d8a8918-edc2-4a44-b8f7-a96fba96b811",
+   "metadata": {},
+   "source": [
+    "# --------------------------------------------------------------------------------------\n",
+    "# PRACTICAL 3\n",
+    "# --------------------------------------------------------------------------------------"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6790d088-b624-4cfd-8248-14d07ed40550",
+   "metadata": {},
+   "source": [
+    "# To Define and call user-defined functions"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d7f7675c-d176-4444-8b8f-c433cc21478c",
+   "metadata": {},
+   "source": [
+    "1. Define a function without arguements and without a return value, then call it"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "b5df6fcc-c67e-45b2-a013-3c375c598c17",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Welcome to Python\n"
+     ]
+    }
+   ],
+   "source": [
+    "def greet():\n",
+    "    print(\"Welcome to Python\")\n",
+    "greet()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c7795c6a-1c24-4322-9d61-00ee613d58b5",
+   "metadata": {},
+   "source": [
+    "2. Define a function with arguements to perform addition and call it with two values"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "fc39cd0e-1b2e-4385-9fe6-ec87bbf6e808",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 5\n",
+      " 8\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "13\n"
+     ]
+    }
+   ],
+   "source": [
+    "def add(a,b):\n",
+    "    print(a+b)\n",
+    "a = int(input())\n",
+    "b = int(input())\n",
+    "add(a,b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "918575fc-cfdc-4eb2-b39b-2cee35cadd50",
+   "metadata": {},
+   "source": [
+    "3. Function without arguements that returns a value"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "bb6500c9-d276-4d75-96e7-154e2f046820",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Welcome\n"
+     ]
+    }
+   ],
+   "source": [
+    "def greet():\n",
+    "    return \"Welcome\"\n",
+    "a = greet()\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "534c4db6-d392-4393-b579-eb3f65870ef8",
+   "metadata": {},
+   "source": [
+    "4. Function with arguements that returns product"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "2743ecc2-5d9b-43d0-9755-1ffe54079c10",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 3\n",
+      " 11\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "33"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def product(a,b):\n",
+    "    return a*b\n",
+    "a = int(input())\n",
+    "b = int(input())\n",
+    "product(a,b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a1577935-437b-405d-ae35-cee76251d38d",
+   "metadata": {},
+   "source": [
+    "5. Function with default arguement"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "9f3a04a3-882e-4521-a356-49302970547c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "age: 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "def num(a=5):\n",
+    "    print(\"age:\",a)\n",
+    "num()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c6345b7d-a5a8-4950-a91a-3ad9cc2469d3",
+   "metadata": {},
+   "source": [
+    "6. Function with keyword arguements"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "df1280ef-f659-4fc3-a58d-a1213b85c06c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Alex 20\n"
+     ]
+    }
+   ],
+   "source": [
+    "def student(Name, Age):\n",
+    "    print(Name, Age)\n",
+    "student(Name = \"Alex\", Age = 20)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7a8523f8-5c84-40e9-ab4e-f8cc190de6b9",
+   "metadata": {},
+   "source": [
+    "7. Function with variable length arguements(*args)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "1bdf0349-6d1a-4607-9b4f-738d9938089e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "156"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def total(*args):\n",
+    "    total=0\n",
+    "    for i in args:\n",
+    "        total+=i\n",
+    "    return total\n",
+    "total(56,80,20)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a9c9590e-ead8-47b5-8bb8-4dd605402ef8",
+   "metadata": {},
+   "source": [
+    "8. Lambda Function to calculate the sqaure of a number"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "097d955c-f34b-4d9b-b387-914790bcb600",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "121\n"
+     ]
+    }
+   ],
+   "source": [
+    "Sq = lambda n: n*n\n",
+    "print(Sq(11))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "90d5cc80-fc56-4274-a590-0307861cf4ab",
+   "metadata": {},
+   "source": [
+    "9. Recursive function to calculate the factorial of a number"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "bf1c7688-b2a3-4b80-a71e-c4286bec0e42",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 8\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "40320\n"
+     ]
+    }
+   ],
+   "source": [
+    "def fact(n):\n",
+    "    if n==1:\n",
+    "        return 1\n",
+    "    return n*fact(n-1)\n",
+    "n = int(input())\n",
+    "print(fact(n))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4284f08b-f648-4702-99b4-4fb8b9a543a7",
+   "metadata": {},
+   "source": [
+    "10. Nested function and call inner function from the outer function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "7168690c-7496-46c8-b076-e4ea91d81056",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Welcome to Python\n"
+     ]
+    }
+   ],
+   "source": [
+    "def Outer_Function():\n",
+    "    def Inner_Function():\n",
+    "        print(\"Welcome to Python\")\n",
+    "    Inner_Function()\n",
+    "Outer_Function()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7245de49-9e91-4d5d-8c53-7874dc93dbe5",
+   "metadata": {},
+   "source": [
+    "# --------------------------------------------------------------------------------------\n",
+    "# PRACTICAL 4\n",
+    "# --------------------------------------------------------------------------------------\n",
+    "\n",
+    "# To work with Lists and List comprehensions"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 146,
+   "id": "d9b63c0f-2370-4abe-9a91-5c7a8756ba2a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "-------------------------------------------------\n",
+      "              LIST OPERATIONS             \n",
+      "-------------------------------------------------\n",
+      "\n",
+      "Original list       : [10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70]\n",
+      "\n",
+      "First element       : 10\n",
+      "Last element        : 70\n",
+      "\n",
+      "After adding 80     : [10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80]\n",
+      "\n",
+      "After inserted 65   : [10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 65, 70, 80]\n",
+      "\n",
+      "After removing 30   : [10, 15, 20, 25, 35, 40, 45, 50, 60, 65, 70, 80]\n",
+      "\n",
+      "Length of the list  : 12\n",
+      "\n",
+      "Traverse of list :\n",
+      "10 15 20 25 35 40 45 50 60 65 70 80 \n",
+      "\n",
+      "Squares of the list elements :\n",
+      "[100, 225, 400, 625, 1225, 1600, 2025, 2500, 3600, 4225, 4900, 6400]\n",
+      "\n",
+      "Even       : [10, 20, 40, 50, 60, 70, 80]\n",
+      "\n",
+      "Odd        : [15, 25, 35, 45, 65]\n",
+      "\n",
+      "Double     : [20, 30, 40, 50, 70, 80, 90, 100, 120, 130, 140, 160]\n",
+      "\n",
+      "Flattened  : [12, 15, 23, 27, 32, 35]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"-------------------------------------------------\")\n",
+    "print(\"              LIST OPERATIONS             \")\n",
+    "print(\"-------------------------------------------------\")\n",
+    "print()\n",
+    "\n",
+    "\n",
+    "# Create a List containing Integer elements\n",
+    "l = [10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70]\n",
+    "print(\"Original list       :\",l)\n",
+    "print()\n",
+    "\n",
+    "# Accessong and displaying girst and last element\n",
+    "print(\"First element       :\", l[0])         \n",
+    "print(\"Last element        :\", l[-1])          \n",
+    "print()\n",
+    "\n",
+    "# Adding element at the end of the list\n",
+    "l.append(80)\n",
+    "print(\"After adding 80     :\",l)\n",
+    "print()\n",
+    "\n",
+    "# Insering element at a specified position\n",
+    "l.insert(10,65)\n",
+    "print(\"After inserted 65   :\",l)\n",
+    "print()\n",
+    "\n",
+    "# Remove an element from the list\n",
+    "l.remove(30)\n",
+    "print(\"After removing 30   :\",l)\n",
+    "print()\n",
+    "\n",
+    "# Length of the list\n",
+    "Length = len(l)\n",
+    "print(\"Length of the list  :\",Length)\n",
+    "print()\n",
+    "\n",
+    "# Traverse the list using for \n",
+    "print(\"Traverse of list :\")\n",
+    "for i in l:\n",
+    "    print(i,end=\" \")\n",
+    "print()\n",
+    "print()\n",
+    "\n",
+    "# Create a new list containing the squares of all elements using list comprehension\n",
+    "print(\"Squares of the list elements :\")\n",
+    "Square = [n*n for n in l]\n",
+    "print(Square)\n",
+    "print()\n",
+    "\n",
+    "# Create a list containing even numbers using list comprehensions\n",
+    "Even = [n for n in l if n % 2 == 0]\n",
+    "print(\"Even       :\",Even)\n",
+    "print()\n",
+    "\n",
+    "# Create a list containing odd numbers using list comprehensions\n",
+    "Odd = [n for n in l if n % 2 != 0]\n",
+    "print(\"Odd        :\",Odd)\n",
+    "print()\n",
+    "\n",
+    "# Create a new list by doubling each element using list comprehension\n",
+    "Double = [n+n for n in l]\n",
+    "print(\"Double     :\",Double)\n",
+    "print()\n",
+    "\n",
+    "# Create a nested list (matrix) and flatten it into a single list using nested list comprehension\n",
+    "Matrix = [\n",
+    "    [12, 15, 23],\n",
+    "    [27, 32, 35]\n",
+    "]\n",
+    "flatten = [element for row in Matrix for element in row]\n",
+    "print(\"Flattened  :\",flatten)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2ab8b097-9c8a-425b-9bbd-9414be1d8a89",
+   "metadata": {},
+   "source": [
+    "# --------------------------------------------------------------------------------------\n",
+    "# PRACTICAL 5\n",
+    "# --------------------------------------------------------------------------------------\n",
+    "\n",
+    "# To demonstrate operations on Tuple and Sets"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 144,
+   "id": "69ca9c72-4708-41f8-90a9-547dd87196ca",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "-------------------------------------------------\n",
+      "              TUPLE OPERATIONS            \n",
+      "-------------------------------------------------\n",
+      "\n",
+      "Original tuple      : (1, 2, 3, 1, 4, 5, 6, 1, 7, 8, 9, 10)\n",
+      "\n",
+      "First element       : 1\n",
+      "Last element        : 10\n",
+      "\n",
+      "Length of the tuple : 12\n",
+      "\n",
+      "Selected elements :\n",
+      "(1, 4, 5, 6, 1, 7)\n",
+      "(1, 2, 3, 1, 4)\n",
+      "(5, 6, 1, 7, 8, 9, 10)\n",
+      "(10, 9, 8, 7, 1, 6, 5, 4, 1, 3, 2, 1)\n",
+      "\n",
+      "Count of 1          : 3\n",
+      "\n",
+      "Index of 7          : 8\n",
+      "\n",
+      "Tranverse of tuple :\n",
+      "1 2 3 1 4 5 6 1 7 8 9 10 \n",
+      "\n",
+      "Concatenation of t and t1 :\n",
+      "(1, 2, 3, 1, 4, 5, 6, 1, 7, 8, 9, 10, 20, 30, 40)\n",
+      "\n",
+      "-------------------------------------------------\n",
+      "              SET OPERATIONS            \n",
+      "-------------------------------------------------\n",
+      "\n",
+      "Original Set          : {50, 20, 40, 25, 10, 45, 30}\n",
+      "\n",
+      "Adding the element 55 : {50, 20, 55, 40, 25, 10, 45, 30}\n",
+      "\n",
+      "After Removed 25      : {50, 20, 55, 40, 10, 45, 30}\n",
+      "\n",
+      "Length of the Set     : 7\n",
+      "\n",
+      "Traverse of the Set :\n",
+      "50 20 55 40 10 45 30 \n",
+      "\n",
+      "METHOD 1\n",
+      "Union                : {5, 10, 15, 18, 20, 21, 30, 40, 45, 48, 50, 55, 60}\n",
+      "Intersection         : {50, 10, 30}\n",
+      "Difference           : {40, 20, 45, 55}\n",
+      "Symmetric Difference : {5, 40, 45, 15, 48, 18, 20, 21, 55, 60}\n",
+      "\n",
+      "METHOD 2\n",
+      "Union                : {5, 10, 15, 18, 20, 21, 30, 40, 45, 48, 50, 55, 60}\n",
+      "Intersection         : {50, 10, 30}\n",
+      "Difference           : {40, 20, 45, 55}\n",
+      "Symmetric Difference : {5, 40, 45, 15, 48, 18, 20, 21, 55, 60}\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"-------------------------------------------------\")\n",
+    "print(\"              TUPLE OPERATIONS            \")\n",
+    "print(\"-------------------------------------------------\")\n",
+    "print()\n",
+    "\n",
+    "\n",
+    "# Creating a tuple with integer elements\n",
+    "t = (1, 2, 3, 1, 4, 5, 6, 1, 7, 8, 9, 10)\n",
+    "\n",
+    "# Displaying the original tuple\n",
+    "print(\"Original tuple      :\",t)\n",
+    "print()\n",
+    "\n",
+    "# Accessing and displaying the first and last element of a tuple\n",
+    "print(\"First element       :\",t[0])\n",
+    "print(\"Last element        :\",t[-1])\n",
+    "print()\n",
+    "\n",
+    "# Displaying the length of the tuple\n",
+    "l = len(t)\n",
+    "print(\"Length of the tuple :\",l)\n",
+    "print()\n",
+    "\n",
+    "# Slicing and displayong the selected elements\n",
+    "print(\"Selected elements :\")\n",
+    "print(t[3:9])\n",
+    "print(t[:5])\n",
+    "print(t[5:])\n",
+    "print(t[::-1])\n",
+    "print()\n",
+    "\n",
+    "# To count the occurance of a specific element\n",
+    "print(\"Count of 1          :\",t.count(1))\n",
+    "print()\n",
+    "\n",
+    "# To find the index of a specified element\n",
+    "print(\"Index of 7          :\",t.index(7))\n",
+    "print()\n",
+    "\n",
+    "# Traverse of tuple using for loop\n",
+    "print(\"Tranverse of tuple :\")\n",
+    "for i in t:\n",
+    "    print(i,end=\" \")\n",
+    "print()\n",
+    "\n",
+    "# Concanate two tuples\n",
+    "t1 = (20, 30, 40)\n",
+    "print(\"\\nConcatenation of t and t1 :\")\n",
+    "print(t+t1)\n",
+    "print()\n",
+    "\n",
+    "\n",
+    "print(\"-------------------------------------------------\")\n",
+    "print(\"              SET OPERATIONS            \")\n",
+    "print(\"-------------------------------------------------\")\n",
+    "print()\n",
+    "\n",
+    "\n",
+    "# Create a set with integer elements\n",
+    "s = {10, 20, 25, 30, 40, 45, 50}\n",
+    "\n",
+    "# Displaying the Original set\n",
+    "print(\"Original Set          :\",s)\n",
+    "print()\n",
+    "\n",
+    "# Adding new element to the set\n",
+    "s.add(55)\n",
+    "print(\"Adding the element 55 :\",s)\n",
+    "print()\n",
+    "\n",
+    "# Removing an element from the set\n",
+    "s.remove(25)\n",
+    "print(\"After Removed 25      :\",s)\n",
+    "print()\n",
+    "\n",
+    "# Length of set \n",
+    "length = len(s)\n",
+    "print(\"Length of the Set     :\",length)\n",
+    "print()\n",
+    "\n",
+    "# Traverse of the Set\n",
+    "print(\"Traverse of the Set :\")\n",
+    "for i in s:\n",
+    "    print(i,end=\" \")\n",
+    "print()\n",
+    "print()\n",
+    "\n",
+    "# Creating another Set with integer elements\n",
+    "s1 = {5, 10, 15, 18, 30, 21, 48, 50, 60}\n",
+    "\n",
+    "# To display the union, intersection, difference and symmetric difference of two sets\n",
+    "print(\"METHOD 1\")\n",
+    "print(\"Union                :\",s.union(s1))\n",
+    "print(\"Intersection         :\",s.intersection(s1))\n",
+    "print(\"Difference           :\",s.difference(s1))\n",
+    "print(\"Symmetric Difference :\",s.symmetric_difference(s1))\n",
+    "print()\n",
+    "print(\"METHOD 2\")\n",
+    "print(\"Union                :\",s|s1)\n",
+    "print(\"Intersection         :\",s&s1)\n",
+    "print(\"Difference           :\",s-s1)\n",
+    "print(\"Symmetric Difference :\",s^s1)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "75d3b141-6ab9-4547-ada0-e6491feb26f0",
+   "metadata": {},
+   "source": [
+    "# --------------------------------------------------------------------------------------\n",
+    "# PRACTICAL 6\n",
+    "# --------------------------------------------------------------------------------------\n",
+    "\n",
+    "# To perform basic operations on Dictionaries"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 139,
+   "id": "c28dda5c-8fbd-444d-9ae2-73e8798bf8ff",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "-------------------------------------------------\n",
+      "                DICTIONARY             \n",
+      "-------------------------------------------------\n",
+      "\n",
+      "\n",
+      "Original Dictionary         : {'Name': 'Rose', 'Age': 18, 'Total Marks': 519, 'Department': 'CSE'}\n",
+      "\n",
+      "Name                        : Rose\n",
+      "Department                  : CSE\n",
+      "\n",
+      "After adding percentage     : {'Name': 'Rose', 'Age': 18, 'Total Marks': 519, 'Department': 'CSE', 'Percentage': 86.5}\n",
+      "\n",
+      "After updating value        : {'Name': 'Rose', 'Age': 18, 'Total Marks': 519, 'Department': 'Cyber Security', 'Percentage': 86.5}\n",
+      "\n",
+      "After Removing Marks        : {'Name': 'Rose', 'Age': 18, 'Department': 'Cyber Security', 'Percentage': 86.5}\n",
+      "\n",
+      "Length of the Dictinary     : 4\n",
+      "\n",
+      "Keys                        : dict_keys(['Name', 'Age', 'Department', 'Percentage'])\n",
+      "\n",
+      "Values                      : dict_values(['Rose', 18, 'Cyber Security', 86.5])\n",
+      "\n",
+      "Items                       : dict_items([('Name', 'Rose'), ('Age', 18), ('Department', 'Cyber Security'), ('Percentage', 86.5)])\n",
+      "\n",
+      "Traversing Dictionary :\n",
+      "Name : Rose\n",
+      "Age : 18\n",
+      "Department : Cyber Security\n",
+      "Percentage : 86.5\n",
+      "\n",
+      "key 'roll' does not exist\n",
+      "\n",
+      "Copy of dictionary          : {'Name': 'Rose', 'Age': 18, 'Department': 'Cyber Security', 'Percentage': 86.5}\n",
+      "\n",
+      "dict2 before clearing       : {'a': 1, 'b': 2, 'c': 3}\n",
+      "dict2 after clearing        : {}\n",
+      "\n",
+      "----------------------------------\n",
+      "      Updated Dictionaries        \n",
+      "----------------------------------\n",
+      "Original Dictionary : {'Name': 'Rose', 'Age': 18, 'Department': 'Cyber Security', 'Percentage': 86.5}\n",
+      "Copy of Dictionary  : {'Name': 'Rose', 'Age': 18, 'Department': 'Cyber Security', 'Percentage': 86.5}\n",
+      "Cleared Dictionary  : {}\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"-------------------------------------------------\")\n",
+    "print(\"                DICTIONARY             \")\n",
+    "print(\"-------------------------------------------------\")\n",
+    "print()\n",
+    "\n",
+    "# Creating a dictionary containing student details\n",
+    "student = {\"Name\" : \"Rose\", \"Age\" : 18, \"Total Marks\" : 519, \"Department\" : \"CSE\"}\n",
+    "print()\n",
+    "\n",
+    "# Displaying the Original Dictionary\n",
+    "print(\"Original Dictionary         :\",student)\n",
+    "print()\n",
+    "\n",
+    "# Accessing and displaying values of specific keys\n",
+    "print(\"Name                        :\", student[\"Name\"])\n",
+    "print(\"Department                  :\",student[\"Department\"])\n",
+    "print()\n",
+    "\n",
+    "# Adding a new key value pair\n",
+    "student[\"Percentage\"] = 86.5\n",
+    "print(\"After adding percentage     :\",student)\n",
+    "print()\n",
+    "\n",
+    "# Updating value of existing key\n",
+    "student[\"Department\"] = \"Cyber Security\"\n",
+    "print(\"After updating value        :\",student)\n",
+    "print()\n",
+    "\n",
+    "# Removing key value pairs\n",
+    "student.pop(\"Total Marks\")\n",
+    "print(\"After Removing Marks        :\",student)\n",
+    "print()\n",
+    "\n",
+    "# Length of the Dictionary\n",
+    "print(\"Length of the Dictinary     :\",len(student))\n",
+    "print()\n",
+    "\n",
+    "# Display all keys\n",
+    "print(\"Keys                        :\",student.keys())\n",
+    "print()\n",
+    "\n",
+    "# Diplay all values\n",
+    "print(\"Values                      :\",student.values())\n",
+    "print()\n",
+    "\n",
+    "# Display all key value pairs \n",
+    "print(\"Items                       :\",student.items())\n",
+    "print()\n",
+    "\n",
+    "# Traverse dictionary using for loop\n",
+    "print(\"Traversing Dictionary :\")\n",
+    "for i, j in student.items():\n",
+    "    print(i,\":\",j)\n",
+    "print()\n",
+    "\n",
+    "# Check if specific key exists\n",
+    "if \"roll\" in student:\n",
+    "    print(\"Key 'roll' exists in dictionary\")\n",
+    "else:\n",
+    "    print(\"key 'roll' does not exist\")\n",
+    "print()\n",
+    "\n",
+    "# Creating a copy of dictionary \n",
+    "print(\"Copy of dictionary          :\",student.copy())\n",
+    "print()\n",
+    "\n",
+    "# Creating another dictionary and clearing it\n",
+    "dict2 = {\"a\" : 1, \"b\" : 2, \"c\" : 3}\n",
+    "print(\"dict2 before clearing       :\",dict2)\n",
+    "dict2.clear()\n",
+    "print(\"dict2 after clearing        :\",dict2)\n",
+    "print()\n",
+    "\n",
+    "# Displaying all the updated dictionries\n",
+    "print(\"----------------------------------\")\n",
+    "print(\"      Updated Dictionaries        \")\n",
+    "print(\"----------------------------------\")\n",
+    "print(\"Original Dictionary :\",student)\n",
+    "print(\"Copy of Dictionary  :\",student.copy())\n",
+    "print(\"Cleared Dictionary  :\",dict2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4422228c-0a8e-4937-95d4-7756f00a7297",
+   "metadata": {},
+   "source": [
+    "# --------------------------------------------------------------------------------------\n",
+    "#                                 PRACTICAL 7\n",
+    "# --------------------------------------------------------------------------------------\n",
+    "\n",
+    "# Python script to read and write data using files"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 164,
+   "id": "19b0c90f-2c9e-482e-99e3-463ebfc2e4a8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "----------------------------------\n",
+      "  FILE CONTENTS AFTER WRITING   \n",
+      "----------------------------------\n",
+      "Name       : Rose\n",
+      "Roll No    : 12132\n",
+      "Department : CSE\n",
+      "Total Marks: 519\n",
+      "\n",
+      "----------------------------------\n",
+      "     UPDATED FILE CONTENTS     \n",
+      "----------------------------------\n",
+      "Name       : Rose\n",
+      "Roll No    : 12132\n",
+      "Department : CSE\n",
+      "Total Marks: 519\n",
+      "Email      : rose040226@gmail.com\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "filename = \"student.txt\"                             # Creating a file\n",
+    "f = open(filename, \"w\")                              # Opening a text file in write mode\n",
+    "\n",
+    "print(\"----------------------------------\")\n",
+    "print(\"  FILE CONTENTS AFTER WRITING   \")\n",
+    "print(\"----------------------------------\")\n",
+    "\n",
+    "# Writing multiple lines of text into the file\n",
+    "f.write(\"Name       : Rose\\n\")\n",
+    "f.write(\"Roll No    : 12132\\n\")\n",
+    "f.write(\"Department : CSE\\n\")\n",
+    "f.write(\"Total Marks: 519\\n\")\n",
+    "\n",
+    "f.close()                                            # Closing the file after writing\n",
+    "f = open(filename, \"r\")                              # Opening the same file in read mode\n",
+    "print(f.read())                                      # Reading and display the contents of the file\n",
+    "f.close()                                            # Closing the file after reading\n",
+    "f = open(filename, \"a\")                              # Opening the file in append mode\n",
+    "f.write(\"Email      : rose040226@gmail.com\\n\")       # Appending new data to the end of the file\n",
+    "f.close()                                            # Closing the file after appending\n",
+    "\n",
+    "print(\"----------------------------------\")\n",
+    "print(\"     UPDATED FILE CONTENTS     \")\n",
+    "print(\"----------------------------------\")\n",
+    "\n",
+    "f = open(filename, \"r\")                              # Reopening the file in read mode\n",
+    "print(f.read())                                      # Reading and display the updated file contents\n",
+    "f.close()                                            # Closing the file"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
