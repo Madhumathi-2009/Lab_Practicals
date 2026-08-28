@@ -7,9 +7,7 @@
 </p>
 
 ### About This Repository
-This repository contains my 10 Python Practicals for Data Analysis for Sustainability Lab. Each practical includes code, output and result from my lab file.
-
-**File:** Madhumathi 2009A B Practical - Data Analysis for Sustainability.pdf
+This repository contains my 10 Python Practicals for Data science Lab. Each practical includes code, output and result from my lab file.
 
 ---
 
