@@ -42,7 +42,7 @@ This repository contains my 10 Python Practicals for Data science Lab. Each prac
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rounded&color=FFF0F5&height=90&section=footer&text=By+Madhumathi.C&fontSize=18&fontColor=7A5A7A" width="100%" />
 </p>
-
+ 
 
 
 
