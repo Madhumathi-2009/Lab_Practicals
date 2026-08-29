@@ -11,6 +11,7 @@ This repository contains my 10 Python Practicals for Data science Lab. Each prac
 
 ---
 
+
 ### Practicals List
 
 | No | Practical Title | What will be in this Practical |
