@@ -9,7 +9,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ### About This Repository
-This repository contains my 20 Python Practicals for Data Science Lab. Each practical includes code, output and result from my lab file.
+This repository contains my 20 Python Practicals for Data Science Lab. Each practical includes code and output.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
