@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=FFF0F5&height=180&section=header&text=Lab%20Practicals&fontSize=52&fontColor=7A5A7A&animation=fadeIn&fontAlignY=40&desc=Handwritten%20Simple%20code%20with%20Output&descAlignY=62&descSize=16" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=FFF0F5&height=160&section=header&text=Lab%20Practicals&fontSize=46&fontColor=7A5A7A&animation=fadeIn" width="90%" />
 </p>
 
 <p align="center">
@@ -70,7 +70,7 @@ This repository contains my 20 Python Practicals for Data Science Lab. Each prac
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=FFF0F5&height=90&section=footer&text=By+C.Madhumathi&fontSize=18&fontColor=7A5A7A" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=FFF0F5&height=90&section=footer&text=By+C.Madhumathi&fontSize=18&fontColor=7A5A7A" width="100%" />
 </p>
 
 
