@@ -41,7 +41,7 @@ This repository contains my 20 Python Practicals for Data Science Lab. Each prac
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=FFDEE9&height=120&section=header&text=Special%20Thanks%20To%20My%20Teacher&fontSize=26&fontColor=7A5A7A&animation=fadeIn&desc=For%20your%20guidance%2C%20support%20and%20clear%20explanations&descSize=14&descAlignY=75" width="90%" />
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=FFDEE9&height=120&section=header&text=Special%20Thanks%20To%20Sakshi%20Mam&fontSize=26&fontColor=7A5A7A&animation=fadeIn&desc=For%20your%20guidance%2C%20support%20and%20clear%20explanations&descSize=14&descAlignY=75" width="90%" />
 </p>
 
 <p align="center">
