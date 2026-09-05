@@ -55,7 +55,10 @@ This repository contains my 20 Python Practicals for Data Science Lab. Each prac
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-### Thank You!! for visiting my repository! If this lab file helps you, don't forget to give me a star ⭐
+
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&size=30&pause=1000&color=7A5A7A&center=true&vCenter=true&width=650&lines=Thankyou+for+Visiting+this+repository" alt="Typing SVG" /></a>
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Madhumathi-2009&label=Profile+Views&color=FFDEE9&style=flat" />
