@@ -50,7 +50,7 @@ This repository contains my 20 Python Practicals for Data Science Lab. Each prac
 </p>
 
 <p align="center">
-  <i>💖 I am truly grateful to my teacher for teaching and explaining all these concepts with patience and clarity. <br> Your guidance made Data Science Lab easy and interesting. Thank you Mam! 🙏</i>
+  <i>💖 I am truly grateful to my teacher **Sakshi Pandey** for teaching and explaining all these concepts with patience and clarity. <br> Your guidance made Data Science Lab easy and interesting. Thank you Mam! 🙏</i>
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
