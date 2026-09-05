@@ -3,14 +3,15 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Poppins&size=22&pause=1000&color=A88CA8&center=true&vCenter=true&width=600&lines=10+Python+Lab+Practicals;B.Sc+Data+Science+and+AI" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Poppins&size=22&pause=1000&color=A88CA8&center=true&vCenter=true&width=600&lines=20+Python+Lab+Practicals;B.Sc+Data+Science+and+AI" alt="Typing SVG" /></a>
 </p>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ### About This Repository
-This repository contains my 10 Python Practicals for Data science Lab. Each practical includes code, output and result from my lab file.
+This repository contains my 20 Python Practicals for Data Science Lab. Each practical includes code, output and result from my lab file.
 
----
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ### Practicals List
 
@@ -24,10 +25,35 @@ This repository contains my 10 Python Practicals for Data science Lab. Each prac
 | <img src="https://img.shields.io/badge/06-FFE4EC?style=for-the-badge" /> | Basic Operations on Dictionaries | access, add, update, pop, len, keys, values, items, check key, copy, clear |
 | <img src="https://img.shields.io/badge/07-FFDEE9?style=for-the-badge" /> | Read and Write Data using Files | open file in write mode, read mode, append mode, write student details and read file |
 | <img src="https://img.shields.io/badge/08-FFE4EC?style=for-the-badge" /> | NumPy Arrays and Array Operations | 1D and 2D array, addition, subtraction, multiplication, division, sqrt, exp, sort |
-| <img src="https://img.shields.io/badge/09-FFDEE9?style=for-the-badge" /> | Indexing, Slicing and Reshaping in NumPy | indexing, slicing, 2D indexing, reshape 2x3 and 3x2, flatten, shape, ndim, size |
+| <img src="https://img.shields.io/badge/09-FFE4EC?style=for-the-badge" /> | Indexing, Slicing and Reshaping in NumPy | indexing, slicing, 2D indexing, reshape 2x3 and 3x2, flatten, shape, ndim, size |
 | <img src="https://img.shields.io/badge/10-FFE4EC?style=for-the-badge" /> | Statistical Functions with NumPy | sum, mean, median, standard deviation, variance, min, max, percentile, cumsum, sort |
+| <img src="https://img.shields.io/badge/11-FFDEE9?style=for-the-badge" /> | Creating and Manipulating DataFrames with Pandas | create DataFrame, add column, head(), tail(), shape, columns, info() |
+| <img src="https://img.shields.io/badge/12-FFE4EC?style=for-the-badge" /> | Data Grouping and Aggregation | groupby(), mean(), sum(), count(), agg(), filtering grouped data |
+| <img src="https://img.shields.io/badge/13-FFDEE9?style=for-the-badge" /> | Merging and Joining DataFrames | merge(), inner join, outer join, left join, right join, concat() |
+| <img src="https://img.shields.io/badge/14-FFE4EC?style=for-the-badge" /> | Data Visualization - Bar and Line Charts | matplotlib bar chart, line chart, xlabel, ylabel, title, legend, grid |
+| <img src="https://img.shields.io/badge/15-FFDEE9?style=for-the-badge" /> | Scatter Plot, Histogram and Subplots | scatter(), hist(), subplots(), figsize, color customization |
+| <img src="https://img.shields.io/badge/16-FFE4EC?style=for-the-badge" /> | Customization of Plots | labels, titles, legends, line style, marker, pie chart, savefig() |
+| <img src="https://img.shields.io/badge/17-FFDEE9?style=for-the-badge" /> | Load and Analyze CSV Dataset | read_csv(), head(), tail(), columns, dtypes, info(), describe(), isnull(), sort_values() |
+| <img src="https://img.shields.io/badge/18-FFE4EC?style=for-the-badge" /> | Basic Data Cleaning and Preprocessing | isnull().sum(), fillna() with mean, drop_duplicates(), astype(), rename(), sorting, filtering |
+| <img src="https://img.shields.io/badge/19-FFDEE9?style=for-the-badge" /> | Compute Basic Statistics from Dataset | mean(), median(), mode(), std(), min(), max(), var(), describe() |
+| <img src="https://img.shields.io/badge/20-FFDEE9?style=for-the-badge" /> | Data Visualization using Seaborn | heatmap with annot, boxplot, pairplot, coolwarm cmap, distribution |
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=FFDEE9&height=120&section=header&text=Special%20Thanks%20To%20My%20Teacher&fontSize=26&fontColor=7A5A7A&animation=fadeIn&desc=For%20your%20guidance%2C%20support%20and%20clear%20explanations&descSize=14&descAlignY=75" width="90%" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Thank%20You%20Mam%20For%20Teaching%20Us-FFB6D9?style=for-the-badge&logo=books&logoColor=7A5A7A" />
+  <img src="https://img.shields.io/badge/Guiding%20Us%20Through%20All%2020%20Practicals-FFF0F5?style=for-the-badge&labelColor=FFDEE9&color=FFDEE9&labelColor=FFDEE9" />
+</p>
+
+<p align="center">
+  <i>💖 I am truly grateful to my teacher for teaching and explaining all these concepts with patience and clarity. <br> Your guidance made Data Science Lab easy and interesting. Thank you Mam! 🙏</i>
+</p>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ### Thank You!! for visiting my repository! If this lab file helps you, don't forget to give me a star ⭐
 
@@ -43,17 +69,6 @@ This repository contains my 10 Python Practicals for Data science Lab. Each prac
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rounded&color=FFF0F5&height=90&section=footer&text=By+C.Madhumathi&fontSize=18&fontColor=7A5A7A" width="100%" />
 </p>
- 
-
-
-
-
-
-
-
-
-
-
 
 
 
